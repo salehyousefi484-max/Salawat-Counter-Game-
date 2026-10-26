@@ -2,18 +2,20 @@
   "name": "salawat2",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "dependencies": {
-    "@react-native-async-storage/async-storage": "2.2.0",
-    "expo": "~57.0.31",
-    "expo-status-bar": "~57.0.1",
-    "react": "19.2.3",
-    "react-native": "0.86.3"
-  },
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "private": true
+    "expo": "~57.0.0",
+    "expo-av": "*",
+    "expo-blur": "*",
+    "expo-device": "*",
+    "expo-haptics": "*",
+    "expo-keep-awake": "*",
+    "expo-linear-gradient": "*",
+    "expo-notifications": "*",
+    "expo-status-bar": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "@react-native-async-storage/async-storage": "*"
+  }
 }
